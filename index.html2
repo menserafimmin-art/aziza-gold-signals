@@ -170,6 +170,11 @@ body {
             Утушу ошол замат чечсеңиз болот 💸
         </p>
 
+function closePopup() 
+{
+    const popup = document.getElementById("popup");
+    popup.style.display = "none"; 
+}
         <button onclick="closePopup()">
             Түшүндүм
         </button>
