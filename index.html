@@ -10,7 +10,6 @@
         font-family: Arial, sans-serif;
     }
 
-    /* Затемнение фона */
     .overlay {
         position: fixed;
         top: 0; left: 0;
@@ -23,7 +22,6 @@
         animation: fadeIn 0.5s forwards;
     }
 
-    /* Pop-up блок */
     .popup {
         background: #fff;
         padding: 25px;
@@ -69,7 +67,6 @@
 </head>
 <body>
 
-<!-- Pop-up -->
 <div class="overlay">
     <div class="popup">
         <h2>Куттуктайм! 🎉</h2>
@@ -80,7 +77,8 @@
             Утушу ошол замат чечсеңиз болот 💸
         </p>
 
-        <button onclick="document.querySelector('.overlay').style.display='none'">
+        <!-- Кнопка → переход в Telegram -->
+        <button onclick="window.location.href='https://t.me/YOUR_TELEGRAM_USERNAME'">
             Түшүндүм
         </button>
     </div>
