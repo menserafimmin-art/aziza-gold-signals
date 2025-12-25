@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+  <meta charset="UTF-8">
+  <title>Жеке формат</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
+      background: #ffffff;
+      color: #6b6b6b;
+    }
+    .container {
+      max-width: 480px;
+      margin: 0 auto;
+      padding: 60px 24px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 28px;
+      color: #111;
+      margin-bottom: 24px;
+      font-weight: 500;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 16px 28px;
+      background: #111;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 30px;
+      font-size: 16px;
+    }
+    .note {
+      margin-top: 40px;
+      font-size: 12px;
+      color: #9a9a9a;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Жеке формат</h1>
+
+    <p>
+      Мен массалык форматта иштебейм.  
+      Бул жер баары үчүн эмес.
+    </p>
+
+    <p>
+      Аз адамдар менен,  
+      чектелген убакытта гана.
+    </p>
+
+    <p>
+      Деталдар жана шарттар  
+      <strong>жеке түшүндүрүлөт</strong>.
+    </p>
+
+    <a class="btn" href="https://t.me/USERNAME">
+      Жеке жазуу
+    </a>
+
+    <div class="note">
+      Бул инвестиция эмес.  
+      Натыйжалар жеке аракетке жараша өзгөрөт.
+    </div>
+  </div>
+
+</body>
+</html>
